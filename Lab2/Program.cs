@@ -13,7 +13,8 @@ namespace Lab2
         static void Main(string[] args)
         {
             //filepath of employee.text file
-            string filePath = "C:\\Users\\paolo\\source\\repos\\Lab2\\Lab2\\employees.txt";
+            string filePath = "../../employees.txt";
+
             Application application = new Application(filePath);
 
             var averagePay = application.AverageWeeklyPay();
